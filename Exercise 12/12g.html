@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+
+    .card {
+        background: white;
+        border-radius: 10px;
+        padding: 20px;
+        width: 350px;
+        color: black;
+    }
+
+    .user {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .user:last-child {
+        margin-bottom: 0;
+    }
+
+    .user-info {
+        display: flex;
+        align-items: center;
+    }
+
+    .user-info img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 15px;
+    }
+
+    .user-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .user-text .name {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .user-text .desc {
+        font-size: 14px;
+        color: #555;
+    }
+
+    .follow-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .follow-btn:hover {
+        background-color: #0056b3;
+    }
+    </style>
+</head>
+<body>
+
+
+
+<div class="card">
+    <div class="user">
+    <div class="user-info">
+        <img src="Cat6-800x800.jpg" alt="Oliver the cat">
+        <div class="user-text">
+            <span class="name">oliver</span>
+            <span class="desc">the cat<br>Popular</span>
+        </div>
+    </div>
+    <button class="follow-button">Follow</button>
+    </div>
+
+    <div class="user">
+    <div class="user-info">
+        <img src="download (2).jpg" alt="Mimi sleepy cat">
+        <div class="user-text">
+            <span class="name">Mimi</span>
+            <span class="desc">Sleepy Cat<br>Popular</span>
+        </div>
+    </div>
+    <button class="follow-button">Follow</button>
+    </div>
+
+    <div class="user">
+        <div class="user-info">
+        <img src="download (5).jpg" alt="Rex the bulldog">
+        <div class="user-text">
+            <span class="name">Rex</span>
+            <span class="desc">Happy Bulldog<br>Popular</span>
+        </div>
+    </div>
+    <button class="follow-button">Follow</button>
+    </div>
+</div>
+
+</body>
+</html>
