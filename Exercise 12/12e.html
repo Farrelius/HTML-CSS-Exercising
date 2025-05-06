@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            border: gray solid 1px;
+            padding: 10px;
+            flex-direction: column;
+            width: 7cm;
+        }
+
+        .Home{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .notif{
+            border: none; border-radius: 100px;
+            background-color: cornflowerblue; color: white;
+            padding-left: 9px; padding-right: 9px; padding-top: 2px; padding-bottom: 2px;
+        }
+
+        .list{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .row-list-home{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        
+        .row-list-notif{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        
+        .row-list-message{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="list">
+            <div class="row-list-home">
+                <div class="home-notif">
+                    Home
+                </div>
+                <div class="notif">
+                    14
+                </div>
+            </div>
+
+            <div class="row-list-notif">
+                <div class="notification-notif">
+                    Notifications
+                </div>
+                <div class="notif">
+                    3
+                </div>
+            </div>
+            
+            <div class="row-list-message">
+                <div class="messages-notif">
+                    Messages
+                </div>
+                <div class="notif">
+                    5
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

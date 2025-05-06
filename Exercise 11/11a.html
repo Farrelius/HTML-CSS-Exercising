@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            display: grid;
+            grid-template-columns: 75px 75px 50px;
+            grid-column-gap: 0px;
+            column-width: 275px;
+        }
+        .one{
+            background-color: aquamarine;
+            width: 200px;
+            grid-column: span 2;
+        }
+        .two{
+            background-color: pink;
+            width: 75px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="one">200px</div>
+        <div class="two">75px</div>
+    </main>
+</body>
+</html>

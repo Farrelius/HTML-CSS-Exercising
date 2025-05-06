@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+        display: flex;
+        border: 5px solid white;
+        width: fit-content;
+        }
+
+        .left-box {
+        width: 100px;
+        background-color: pink;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 2.5cm;
+        }
+
+        .right-box {
+        width: 200px;
+        background-color: lightblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        height: 2.5cm;
+        }
+
+        .row, .bottom-right {
+        background-color: black;
+        color: white;
+        padding: 3px 8px;
+        margin: 2px;
+        }
+
+        .row1{
+            padding: 3px 8px;
+            margin: 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-box">
+            <div class="row1">row1</div>
+            <div class="row">row2</div>
+         </div>
+        <div class="right-box">
+            <div class="bottom-right1">&nbsp;</div>
+            <div class="bottom-right">row2</div>
+        </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    img{
+        display: flex;
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+        border: none; border-radius: 200px;
+        float: left;
+        margin-left: 10px; margin-top: 20px;
+    }
+
+        div{
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        h3{
+            padding-left: 20px;
+        }
+
+        .name{
+            font-weight: bold;
+        }
+
+        .under-name{
+            color: rgb(173, 173, 173);
+            font-weight: normal;
+        }
+
+        button{
+            margin-left: 3.5cm; margin-top: 35px;
+            padding-top: 12px; padding-bottom: 25px; padding-left: 10px; padding-right: 10px;
+            color: white; background-color: cornflowerblue;
+            border: none; border-radius: 7px;
+            height: 40px;
+        }
+
+        .dog{
+            margin-left: 79px;
+        }
+
+        .sleepy-cat{
+            margin-left: 115px;
+        }
+
+        flex-container{
+            display: flex;
+            flex-direction: column;
+        }
+  </style>
+</head>
+<body>
+    <div class="container" class="cat-1">
+        <img src="Cat6-800x800.jpg" alt="kitten">
+        <h3 class="name">oliver <br> <a class="under-name">the cat <br> Popular </a></h3> 
+        <button>Follow</button>
+    </div>
+
+    <div class="container" class="cat-2">
+        <img src="download (4).jpg" alt="kitten-2">
+        <h3 class="name-2">Mimi <br> <a class="under-name">Sleepy cat <br> Popular </a></h3> 
+        <button class="sleepy-cat">Follow</button>
+    </div> 
+
+    <div class="container" class="cat-3">
+        <img src="1000_F_84601067_obA96bWiW9SOFHEx1hYtDkEi4CGMxhJb.jpg" alt="kitten-3">
+        <h3 class="name-3"> Rex<br> <a class="under-name">Happy Bulldog <br> Popular </a></h3> 
+        <button class="dog">Follow</button>
+    </div>
+</body>
+</html>
