@@ -5,10 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    
+    .container{
+        display: flex;
+        gap: 15px;
+    }
+
+    div{
+        padding: 10px;
+    }
+
+    .subs{
+        background-color: #CD201F;
+        color: white;
+    }
+
+    .join{
+        border: solid 1px cornflowerblue;
+        color: cornflowerblue; background-color: white;
+        padding-left: 20px; padding-right: 20px;
+    }
+
+    .tweet{
+      padding-left: 25px; padding-right: 25px; padding-top: 10px; padding-bottom: 10px;
+      border-radius: 30px; border: none;
+      color: white; background-color: cornflowerblue;
+    }
   </style>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="subs">SUBSCRIBE</div>
+    <div class="join">JOIN</div>
+    <div class="tweet">Tweet</div>
+  </div>  
 </body>
 </html>
